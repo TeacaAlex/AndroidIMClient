@@ -1,1 +1,17 @@
-ANDROID IM CHAT CLIENT
+
+
+  AndroidIMClient
+
+  Requirements
+    This project was tested on Ubuntu 12.10.
+    You must to have installed:
+	- Android SDK API 17 [0]
+	- Eclipse [1]
+
+  Getting Started
+    To get started with AndroidIMClient, you'll need to get familiar with Git.
+
+    To initialize your local repository using the Ants trees, use a command like this:
+          $git clone https://github.com/TeacaAlex/AndroidIMClient.git
+    Then:
+		Import project in Eclipse, create an emulator, and run app;
