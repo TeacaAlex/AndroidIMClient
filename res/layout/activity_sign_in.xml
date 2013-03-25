@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0"
+     >
+
+    <TableRow>
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="" />
+    </TableRow>
+
+    <TableRow>
+      	<EditText
+      	    android:id="@+id/userId"
+      	    android:clickable="true"
+        	android:singleLine="true"
+      	    android:layout_gravity="center_horizontal"
+      	    android:hint="Username" />
+    	</TableRow>
+   <TableRow>
+        <TextView android:text="" />
+    </TableRow>
+    <TableRow>
+        <EditText
+            android:id="@+id/pass"
+            android:layout_gravity="center_horizontal"
+            android:inputType="textPassword" 
+            android:hint="Password"/>
+    	</TableRow> 
+    <TableRow>
+        <TextView android:text="" />
+    </TableRow>
+    	<TableRow>
+        <Button
+            android:id="@+id/login"
+            style="@id/login"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:text="Log In" />
+    
+        </TableRow>
+</TableLayout>
